@@ -18,7 +18,6 @@ app.use(express.static(path.join(__dirname, './materialize')))
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
 // Handlebars
 app.engine(
     "handlebars",
