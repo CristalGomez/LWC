@@ -1,0 +1,172 @@
+/* ----------------------body styling---------------------- */
+body{
+    background-color: lightgrey
+}
+.container-bg {
+    background-size: 100%;
+    min-height: 100vh;
+    min-width: 100vh;
+    padding: 20px;
+}
+.container{
+    background-color: lightgrey;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 15px;
+}
+.page-footer{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: steelblue;
+    width: 100%;
+}
+
+#email-footer{
+    background-color: lightgrey;
+    color: darkgrey;
+}
+.imgBook {
+    float: left;
+}
+.emailBook{
+    float: left;
+}
+
+/* ----------------------font styling---------------------- */
+li{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+a{
+    color: white
+}
+.link {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+h5{
+    text-align: center
+}
+
+p.church{
+    font-weight: bold;
+    line-height: 0.1
+}
+
+#rise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 6vw;
+    color: indianred;
+    font-weight: bold;
+
+}
+
+#higher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: 6vw;
+    color:steelblue;
+    font-weight: bold;
+    line-height: .7;
+}
+
+/* ----------------------image styling---------------------- */
+.logo {
+    float: left;
+}
+.lakewoodlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lakewoodLogo {
+    display: block;
+    margin: 0 auto;
+    height: 5%;
+    width: 30%;
+}
+.book{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 500px;
+}
+
+
+/* ----------------------media queries---------------------- */
+
+@media only screen and (max-width: 980px) {
+    .container, .container-bg{
+        width: 100%
+    }
+
+}
+  
+@media only screen and (max-width: 768px) {
+    .container, .container-bg{
+        width: 100%
+    }
+
+}
+@media only screen and (max-width: 648px) {
+    .container-bg{
+        background: url(./images/mobile.jpg) no-repeat;
+        background-size: 100vh;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        width: 100vh;
+    }
+    .container{
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        width: 100vh;
+    }
+
+    h1, h2, h3, h4, h5, p {
+        text-align: center;
+    }
+    .page-footer{
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: steelblue;
+        width: 100vh;
+    }
+
+}
+
+/* ----------------------btn styling---------------------- */
+.preOrder {
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+.preOrder-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: dodgerblue;
+}
+
+.cart-btn{
+    background-color: white;
+    color: black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.read-btn{
+    color: white;
+    background-color: transparent;
+}
