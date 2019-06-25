@@ -120,12 +120,13 @@ p.church{
 }
 @media only screen and (max-width: 648px) {
     .container-bg{
-        background: url(./images/mobile.jpg) no-repeat;
-        background-size: 100vh;
+        background: url(/images/mobile.jpg) no-repeat;
+        background-size: 100% 100%;
         padding: 10px;
         margin: 0 auto;
         text-align: center;
-        width: 100vh;
+        background-position: center center;
+        background-attachment: fixed;
     }
     .container{
         padding: 10px;
@@ -162,11 +163,18 @@ p.church{
 .cart-btn{
     background-color: white;
     color: black;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+
 }
 .read-btn{
     color: white;
     background-color: transparent;
+    display: inline-block
+}
+
+.add-btn{
+    background-color: white;
+    color: black;
+    display: block;
+    margin: auto auto;
 }
